@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		938C835B22CBD30C0071D23A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C835A22CBD30C0071D23A /* AppDelegate.swift */; };
+		938C835D22CBD30C0071D23A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C835C22CBD30C0071D23A /* SceneDelegate.swift */; };
+		938C836022CBD30C0071D23A /* Erun.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 938C835E22CBD30C0071D23A /* Erun.xcdatamodeld */; };
+		938C836222CBD30C0071D23A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C836122CBD30C0071D23A /* ContentView.swift */; };
+		938C836422CBD30C0071D23A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 938C836322CBD30C0071D23A /* Assets.xcassets */; };
+		938C836722CBD30C0071D23A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 938C836622CBD30C0071D23A /* Preview Assets.xcassets */; };
+		938C836A22CBD30C0071D23A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 938C836822CBD30C0071D23A /* LaunchScreen.storyboard */; };
+		938C837522CBD30C0071D23A /* ErunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C837422CBD30C0071D23A /* ErunTests.swift */; };
+		938C838022CBD30C0071D23A /* ErunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C837F22CBD30C0071D23A /* ErunUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		938C837122CBD30C0071D23A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 938C834F22CBD30C0071D23A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 938C835622CBD30C0071D23A;
+			remoteInfo = Erun;
+		};
+		938C837C22CBD30C0071D23A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 938C834F22CBD30C0071D23A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 938C835622CBD30C0071D23A;
+			remoteInfo = Erun;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		938C835722CBD30C0071D23A /* Erun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Erun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		938C835A22CBD30C0071D23A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		938C835C22CBD30C0071D23A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		938C835F22CBD30C0071D23A /* Erun.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Erun.xcdatamodel; sourceTree = "<group>"; };
+		938C836122CBD30C0071D23A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		938C836322CBD30C0071D23A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		938C836622CBD30C0071D23A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		938C836922CBD30C0071D23A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		938C836B22CBD30C0071D23A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		938C837022CBD30C0071D23A /* ErunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ErunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		938C837422CBD30C0071D23A /* ErunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErunTests.swift; sourceTree = "<group>"; };
+		938C837622CBD30C0071D23A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		938C837B22CBD30C0071D23A /* ErunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ErunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		938C837F22CBD30C0071D23A /* ErunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErunUITests.swift; sourceTree = "<group>"; };
+		938C838122CBD30C0071D23A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		938C835422CBD30C0071D23A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		938C836D22CBD30C0071D23A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		938C837822CBD30C0071D23A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		938C834E22CBD30C0071D23A = {
+			isa = PBXGroup;
+			children = (
+				938C835922CBD30C0071D23A /* Erun */,
+				938C837322CBD30C0071D23A /* ErunTests */,
+				938C837E22CBD30C0071D23A /* ErunUITests */,
+				938C835822CBD30C0071D23A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		938C835822CBD30C0071D23A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				938C835722CBD30C0071D23A /* Erun.app */,
+				938C837022CBD30C0071D23A /* ErunTests.xctest */,
+				938C837B22CBD30C0071D23A /* ErunUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		938C835922CBD30C0071D23A /* Erun */ = {
+			isa = PBXGroup;
+			children = (
+				938C835A22CBD30C0071D23A /* AppDelegate.swift */,
+				938C835C22CBD30C0071D23A /* SceneDelegate.swift */,
+				938C836122CBD30C0071D23A /* ContentView.swift */,
+				938C836322CBD30C0071D23A /* Assets.xcassets */,
+				938C836822CBD30C0071D23A /* LaunchScreen.storyboard */,
+				938C836B22CBD30C0071D23A /* Info.plist */,
+				938C835E22CBD30C0071D23A /* Erun.xcdatamodeld */,
+				938C836522CBD30C0071D23A /* Preview Content */,
+			);
+			path = Erun;
+			sourceTree = "<group>";
+		};
+		938C836522CBD30C0071D23A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				938C836622CBD30C0071D23A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		938C837322CBD30C0071D23A /* ErunTests */ = {
+			isa = PBXGroup;
+			children = (
+				938C837422CBD30C0071D23A /* ErunTests.swift */,
+				938C837622CBD30C0071D23A /* Info.plist */,
+			);
+			path = ErunTests;
+			sourceTree = "<group>";
+		};
+		938C837E22CBD30C0071D23A /* ErunUITests */ = {
+			isa = PBXGroup;
+			children = (
+				938C837F22CBD30C0071D23A /* ErunUITests.swift */,
+				938C838122CBD30C0071D23A /* Info.plist */,
+			);
+			path = ErunUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		938C835622CBD30C0071D23A /* Erun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 938C838422CBD30C0071D23A /* Build configuration list for PBXNativeTarget "Erun" */;
+			buildPhases = (
+				938C835322CBD30C0071D23A /* Sources */,
+				938C835422CBD30C0071D23A /* Frameworks */,
+				938C835522CBD30C0071D23A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Erun;
+			productName = Erun;
+			productReference = 938C835722CBD30C0071D23A /* Erun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		938C836F22CBD30C0071D23A /* ErunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 938C838722CBD30C0071D23A /* Build configuration list for PBXNativeTarget "ErunTests" */;
+			buildPhases = (
+				938C836C22CBD30C0071D23A /* Sources */,
+				938C836D22CBD30C0071D23A /* Frameworks */,
+				938C836E22CBD30C0071D23A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				938C837222CBD30C0071D23A /* PBXTargetDependency */,
+			);
+			name = ErunTests;
+			productName = ErunTests;
+			productReference = 938C837022CBD30C0071D23A /* ErunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		938C837A22CBD30C0071D23A /* ErunUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 938C838A22CBD30C0071D23A /* Build configuration list for PBXNativeTarget "ErunUITests" */;
+			buildPhases = (
+				938C837722CBD30C0071D23A /* Sources */,
+				938C837822CBD30C0071D23A /* Frameworks */,
+				938C837922CBD30C0071D23A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				938C837D22CBD30C0071D23A /* PBXTargetDependency */,
+			);
+			name = ErunUITests;
+			productName = ErunUITests;
+			productReference = 938C837B22CBD30C0071D23A /* ErunUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		938C834F22CBD30C0071D23A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Saad Qureshi";
+				TargetAttributes = {
+					938C835622CBD30C0071D23A = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					938C836F22CBD30C0071D23A = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 938C835622CBD30C0071D23A;
+					};
+					938C837A22CBD30C0071D23A = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 938C835622CBD30C0071D23A;
+					};
+				};
+			};
+			buildConfigurationList = 938C835222CBD30C0071D23A /* Build configuration list for PBXProject "Erun" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 938C834E22CBD30C0071D23A;
+			productRefGroup = 938C835822CBD30C0071D23A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				938C835622CBD30C0071D23A /* Erun */,
+				938C836F22CBD30C0071D23A /* ErunTests */,
+				938C837A22CBD30C0071D23A /* ErunUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		938C835522CBD30C0071D23A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938C836A22CBD30C0071D23A /* LaunchScreen.storyboard in Resources */,
+				938C836722CBD30C0071D23A /* Preview Assets.xcassets in Resources */,
+				938C836422CBD30C0071D23A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		938C836E22CBD30C0071D23A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		938C837922CBD30C0071D23A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		938C835322CBD30C0071D23A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938C835B22CBD30C0071D23A /* AppDelegate.swift in Sources */,
+				938C835D22CBD30C0071D23A /* SceneDelegate.swift in Sources */,
+				938C836222CBD30C0071D23A /* ContentView.swift in Sources */,
+				938C836022CBD30C0071D23A /* Erun.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		938C836C22CBD30C0071D23A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938C837522CBD30C0071D23A /* ErunTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		938C837722CBD30C0071D23A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938C838022CBD30C0071D23A /* ErunUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		938C837222CBD30C0071D23A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 938C835622CBD30C0071D23A /* Erun */;
+			targetProxy = 938C837122CBD30C0071D23A /* PBXContainerItemProxy */;
+		};
+		938C837D22CBD30C0071D23A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 938C835622CBD30C0071D23A /* Erun */;
+			targetProxy = 938C837C22CBD30C0071D23A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		938C836822CBD30C0071D23A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				938C836922CBD30C0071D23A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		938C838222CBD30C0071D23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		938C838322CBD30C0071D23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		938C838522CBD30C0071D23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0.1.0.1;
+				DEVELOPMENT_ASSET_PATHS = "Erun/Preview\\ Content";
+				DEVELOPMENT_TEAM = 5YQB3TL427;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Erun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.erun.erun-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		938C838622CBD30C0071D23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0.1.0.1;
+				DEVELOPMENT_ASSET_PATHS = "Erun/Preview\\ Content";
+				DEVELOPMENT_TEAM = 5YQB3TL427;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Erun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.erun.erun-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		938C838822CBD30C0071D23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YQB3TL427;
+				INFOPLIST_FILE = ErunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.erun.ErunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Erun.app/Erun";
+			};
+			name = Debug;
+		};
+		938C838922CBD30C0071D23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YQB3TL427;
+				INFOPLIST_FILE = ErunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.erun.ErunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Erun.app/Erun";
+			};
+			name = Release;
+		};
+		938C838B22CBD30C0071D23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YQB3TL427;
+				INFOPLIST_FILE = ErunUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.erun.ErunUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Erun;
+			};
+			name = Debug;
+		};
+		938C838C22CBD30C0071D23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YQB3TL427;
+				INFOPLIST_FILE = ErunUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.erun.ErunUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Erun;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		938C835222CBD30C0071D23A /* Build configuration list for PBXProject "Erun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				938C838222CBD30C0071D23A /* Debug */,
+				938C838322CBD30C0071D23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		938C838422CBD30C0071D23A /* Build configuration list for PBXNativeTarget "Erun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				938C838522CBD30C0071D23A /* Debug */,
+				938C838622CBD30C0071D23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		938C838722CBD30C0071D23A /* Build configuration list for PBXNativeTarget "ErunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				938C838822CBD30C0071D23A /* Debug */,
+				938C838922CBD30C0071D23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		938C838A22CBD30C0071D23A /* Build configuration list for PBXNativeTarget "ErunUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				938C838B22CBD30C0071D23A /* Debug */,
+				938C838C22CBD30C0071D23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		938C835E22CBD30C0071D23A /* Erun.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				938C835F22CBD30C0071D23A /* Erun.xcdatamodel */,
+			);
+			currentVersion = 938C835F22CBD30C0071D23A /* Erun.xcdatamodel */;
+			path = Erun.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 938C834F22CBD30C0071D23A /* Project object */;
+}
