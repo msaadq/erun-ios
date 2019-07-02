@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3871E17C8F277A93DC7EB51A /* Pods_ErunUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5BEE4E6DAFA26A1EEEEC361 /* Pods_ErunUITests.framework */; };
 		938C835B22CBD30C0071D23A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C835A22CBD30C0071D23A /* AppDelegate.swift */; };
 		938C835D22CBD30C0071D23A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C835C22CBD30C0071D23A /* SceneDelegate.swift */; };
 		938C836022CBD30C0071D23A /* Erun.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 938C835E22CBD30C0071D23A /* Erun.xcdatamodeld */; };
@@ -16,6 +17,11 @@
 		938C836A22CBD30C0071D23A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 938C836822CBD30C0071D23A /* LaunchScreen.storyboard */; };
 		938C837522CBD30C0071D23A /* ErunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C837422CBD30C0071D23A /* ErunTests.swift */; };
 		938C838022CBD30C0071D23A /* ErunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C837F22CBD30C0071D23A /* ErunUITests.swift */; };
+		93B48C7822CBD6AB00CC4091 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93B48C7722CBD6AB00CC4091 /* GoogleService-Info.plist */; };
+		93B48C7922CBD6AB00CC4091 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93B48C7722CBD6AB00CC4091 /* GoogleService-Info.plist */; };
+		93B48C7A22CBD6AB00CC4091 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93B48C7722CBD6AB00CC4091 /* GoogleService-Info.plist */; };
+		9FA946C9C2282EFD863D5429 /* Pods_Erun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45331AD592F0EDB68098CBE /* Pods_Erun.framework */; };
+		E2AD6A2A4872A642192A5259 /* Pods_ErunTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52F1355C5CBB949CB2F0257F /* Pods_ErunTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FA0128625EFC435E4D209E2 /* Pods-Erun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Erun.debug.xcconfig"; path = "Target Support Files/Pods-Erun/Pods-Erun.debug.xcconfig"; sourceTree = "<group>"; };
+		33EB703EA564447E8F5F961E /* Pods-Erun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Erun.release.xcconfig"; path = "Target Support Files/Pods-Erun/Pods-Erun.release.xcconfig"; sourceTree = "<group>"; };
+		52F1355C5CBB949CB2F0257F /* Pods_ErunTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ErunTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86D6DDAA1BC1288D4289E6FB /* Pods-ErunUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ErunUITests.release.xcconfig"; path = "Target Support Files/Pods-ErunUITests/Pods-ErunUITests.release.xcconfig"; sourceTree = "<group>"; };
 		938C835722CBD30C0071D23A /* Erun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Erun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		938C835A22CBD30C0071D23A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		938C835C22CBD30C0071D23A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +61,12 @@
 		938C837B22CBD30C0071D23A /* ErunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ErunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		938C837F22CBD30C0071D23A /* ErunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErunUITests.swift; sourceTree = "<group>"; };
 		938C838122CBD30C0071D23A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93B48C7722CBD6AB00CC4091 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		97C8E6E3D8EAE64B5ABA9A18 /* Pods-ErunTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ErunTests.release.xcconfig"; path = "Target Support Files/Pods-ErunTests/Pods-ErunTests.release.xcconfig"; sourceTree = "<group>"; };
+		D45331AD592F0EDB68098CBE /* Pods_Erun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Erun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE9661874C45FD1C14F91FD0 /* Pods-ErunUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ErunUITests.debug.xcconfig"; path = "Target Support Files/Pods-ErunUITests/Pods-ErunUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E31643AB2FB949AFADD334E5 /* Pods-ErunTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ErunTests.debug.xcconfig"; path = "Target Support Files/Pods-ErunTests/Pods-ErunTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5BEE4E6DAFA26A1EEEEC361 /* Pods_ErunUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ErunUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FA946C9C2282EFD863D5429 /* Pods_Erun.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2AD6A2A4872A642192A5259 /* Pods_ErunTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +90,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3871E17C8F277A93DC7EB51A /* Pods_ErunUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E9B938A31AA6A396BB6FEE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D45331AD592F0EDB68098CBE /* Pods_Erun.framework */,
+				52F1355C5CBB949CB2F0257F /* Pods_ErunTests.framework */,
+				F5BEE4E6DAFA26A1EEEEC361 /* Pods_ErunUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D6FE83DAC2D6FACA0D459C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FA0128625EFC435E4D209E2 /* Pods-Erun.debug.xcconfig */,
+				33EB703EA564447E8F5F961E /* Pods-Erun.release.xcconfig */,
+				E31643AB2FB949AFADD334E5 /* Pods-ErunTests.debug.xcconfig */,
+				97C8E6E3D8EAE64B5ABA9A18 /* Pods-ErunTests.release.xcconfig */,
+				DE9661874C45FD1C14F91FD0 /* Pods-ErunUITests.debug.xcconfig */,
+				86D6DDAA1BC1288D4289E6FB /* Pods-ErunUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		938C834E22CBD30C0071D23A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +128,8 @@
 				938C837322CBD30C0071D23A /* ErunTests */,
 				938C837E22CBD30C0071D23A /* ErunUITests */,
 				938C835822CBD30C0071D23A /* Products */,
+				8D6FE83DAC2D6FACA0D459C6 /* Pods */,
+				4E9B938A31AA6A396BB6FEE6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +153,7 @@
 				938C836822CBD30C0071D23A /* LaunchScreen.storyboard */,
 				938C836B22CBD30C0071D23A /* Info.plist */,
 				938C835E22CBD30C0071D23A /* Erun.xcdatamodeld */,
+				93B48C7722CBD6AB00CC4091 /* GoogleService-Info.plist */,
 				938C836522CBD30C0071D23A /* Preview Content */,
 			);
 			path = Erun;
@@ -146,9 +192,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 938C838422CBD30C0071D23A /* Build configuration list for PBXNativeTarget "Erun" */;
 			buildPhases = (
+				789DFA0DF8A9EEACA3321BAC /* [CP] Check Pods Manifest.lock */,
 				938C835322CBD30C0071D23A /* Sources */,
 				938C835422CBD30C0071D23A /* Frameworks */,
 				938C835522CBD30C0071D23A /* Resources */,
+				611BEE4594D08043D30DD645 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -163,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 938C838722CBD30C0071D23A /* Build configuration list for PBXNativeTarget "ErunTests" */;
 			buildPhases = (
+				AEFF0EADA9735ABC3E3744AE /* [CP] Check Pods Manifest.lock */,
 				938C836C22CBD30C0071D23A /* Sources */,
 				938C836D22CBD30C0071D23A /* Frameworks */,
 				938C836E22CBD30C0071D23A /* Resources */,
@@ -181,6 +230,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 938C838A22CBD30C0071D23A /* Build configuration list for PBXNativeTarget "ErunUITests" */;
 			buildPhases = (
+				1AE9DDC6B92886559D1B4E1C /* [CP] Check Pods Manifest.lock */,
 				938C837722CBD30C0071D23A /* Sources */,
 				938C837822CBD30C0071D23A /* Frameworks */,
 				938C837922CBD30C0071D23A /* Resources */,
@@ -244,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				938C836A22CBD30C0071D23A /* LaunchScreen.storyboard in Resources */,
+				93B48C7822CBD6AB00CC4091 /* GoogleService-Info.plist in Resources */,
 				938C836722CBD30C0071D23A /* Preview Assets.xcassets in Resources */,
 				938C836422CBD30C0071D23A /* Assets.xcassets in Resources */,
 			);
@@ -253,6 +304,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93B48C7922CBD6AB00CC4091 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,10 +312,97 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93B48C7A22CBD6AB00CC4091 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AE9DDC6B92886559D1B4E1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ErunUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		611BEE4594D08043D30DD645 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Erun/Pods-Erun-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Erun/Pods-Erun-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Erun/Pods-Erun-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		789DFA0DF8A9EEACA3321BAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Erun-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEFF0EADA9735ABC3E3744AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ErunTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		938C835322CBD30C0071D23A /* Sources */ = {
@@ -436,6 +575,7 @@
 		};
 		938C838522CBD30C0071D23A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FA0128625EFC435E4D209E2 /* Pods-Erun.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -458,6 +598,7 @@
 		};
 		938C838622CBD30C0071D23A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33EB703EA564447E8F5F961E /* Pods-Erun.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -480,6 +621,7 @@
 		};
 		938C838822CBD30C0071D23A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E31643AB2FB949AFADD334E5 /* Pods-ErunTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -501,6 +643,7 @@
 		};
 		938C838922CBD30C0071D23A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97C8E6E3D8EAE64B5ABA9A18 /* Pods-ErunTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -522,6 +665,7 @@
 		};
 		938C838B22CBD30C0071D23A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE9661874C45FD1C14F91FD0 /* Pods-ErunUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -542,6 +686,7 @@
 		};
 		938C838C22CBD30C0071D23A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86D6DDAA1BC1288D4289E6FB /* Pods-ErunUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

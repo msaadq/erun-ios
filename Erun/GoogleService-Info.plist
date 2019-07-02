@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>732981349958-lsat84e7fib57rpl2rl3qv96266oa09d.apps.googleusercontent.com</string>
+	<string>732981349958-gkaivqlgkgvmas6ehbpeu779ulfmk60i.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.732981349958-lsat84e7fib57rpl2rl3qv96266oa09d</string>
+	<string>com.googleusercontent.apps.732981349958-gkaivqlgkgvmas6ehbpeu779ulfmk60i</string>
 	<key>ANDROID_CLIENT_ID</key>
-	<string>732981349958-560nd31snecldi96hh8j37h5e1dbhb0c.apps.googleusercontent.com</string>
+	<string>732981349958-v0tnm0pu55440u2irfp2hgto18stufs6.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
 	<string>AIzaSyDSGJ7N1WwF7t3YZN7DmtcIoqE4xdJ2mNo</string>
 	<key>GCM_SENDER_ID</key>
@@ -15,7 +15,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.erun.runner-ios</string>
+	<string>com.erun.erun-app</string>
 	<key>PROJECT_ID</key>
 	<string>erun-7892f</string>
 	<key>STORAGE_BUCKET</key>
@@ -31,7 +31,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:732981349958:ios:45bf5c21309deff8ddc447</string>
+	<string>1:732981349958:ios:8f85d9612f090b49</string>
 	<key>DATABASE_URL</key>
 	<string>https://erun-7892f.firebaseio.com</string>
 </dict>
