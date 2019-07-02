@@ -3,217 +3,222 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		934571972641F4ED00A20C22 /* ErunApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934571962641F4ED00A20C22 /* ErunApp.swift */; };
-		934571992641F4ED00A20C22 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934571982641F4ED00A20C22 /* ContentView.swift */; };
-		9345719E2641F4EE00A20C22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9345719D2641F4EE00A20C22 /* Preview Assets.xcassets */; };
-		934571AF2641F60F00A20C22 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 934571AE2641F60F00A20C22 /* Colors.xcassets */; };
-		934571B12641F61900A20C22 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 934571B02641F61900A20C22 /* Images.xcassets */; };
-		934571B42641F67700A20C22 /* swiftui-xcassets.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 934571B22641F67700A20C22 /* swiftui-xcassets.stencil */; };
-		934571B52641F67700A20C22 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 934571B32641F67700A20C22 /* swiftgen.yml */; };
-		934571B92641F70100A20C22 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934571B72641F70100A20C22 /* Images.swift */; };
-		934571BA2641F70100A20C22 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934571B82641F70100A20C22 /* Colors.swift */; };
-		934571BD2641F84800A20C22 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 934571BC2641F84800A20C22 /* FirebaseDatabase */; };
-		934571BF2641F84800A20C22 /* FirebaseStorageSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 934571BE2641F84800A20C22 /* FirebaseStorageSwift-Beta */; };
-		934571C12641F84800A20C22 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 934571C02641F84800A20C22 /* FirebaseStorage */; };
-		934571C32641F84800A20C22 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 934571C22641F84800A20C22 /* FirebaseFunctions */; };
-		934571C52641F84800A20C22 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 934571C42641F84800A20C22 /* FirebaseCrashlytics */; };
-		934571C72641F84800A20C22 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 934571C62641F84800A20C22 /* FirebaseAuth */; };
-		934571C92641F84800A20C22 /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = 934571C82641F84800A20C22 /* FirebaseDynamicLinks */; };
-		934571CB2641F84800A20C22 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 934571CA2641F84800A20C22 /* FirebaseRemoteConfig */; };
-		934571CE2641F91400A20C22 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 934571CD2641F91400A20C22 /* GoogleService-Info.plist */; };
+		938C835B22CBD30C0071D23A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C835A22CBD30C0071D23A /* AppDelegate.swift */; };
+		938C835D22CBD30C0071D23A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C835C22CBD30C0071D23A /* SceneDelegate.swift */; };
+		938C836022CBD30C0071D23A /* Erun.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 938C835E22CBD30C0071D23A /* Erun.xcdatamodeld */; };
+		938C836222CBD30C0071D23A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C836122CBD30C0071D23A /* ContentView.swift */; };
+		938C836422CBD30C0071D23A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 938C836322CBD30C0071D23A /* Assets.xcassets */; };
+		938C836722CBD30C0071D23A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 938C836622CBD30C0071D23A /* Preview Assets.xcassets */; };
+		938C836A22CBD30C0071D23A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 938C836822CBD30C0071D23A /* LaunchScreen.storyboard */; };
+		938C837522CBD30C0071D23A /* ErunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C837422CBD30C0071D23A /* ErunTests.swift */; };
+		938C838022CBD30C0071D23A /* ErunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C837F22CBD30C0071D23A /* ErunUITests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		938C837122CBD30C0071D23A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 938C834F22CBD30C0071D23A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 938C835622CBD30C0071D23A;
+			remoteInfo = Erun;
+		};
+		938C837C22CBD30C0071D23A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 938C834F22CBD30C0071D23A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 938C835622CBD30C0071D23A;
+			remoteInfo = Erun;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		934571932641F4ED00A20C22 /* Erun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Erun.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		934571962641F4ED00A20C22 /* ErunApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErunApp.swift; sourceTree = "<group>"; };
-		934571982641F4ED00A20C22 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		9345719D2641F4EE00A20C22 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9345719F2641F4EE00A20C22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		934571AE2641F60F00A20C22 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
-		934571B02641F61900A20C22 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		934571B22641F67700A20C22 /* swiftui-xcassets.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "swiftui-xcassets.stencil"; sourceTree = "<group>"; };
-		934571B32641F67700A20C22 /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
-		934571B72641F70100A20C22 /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
-		934571B82641F70100A20C22 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
-		934571CD2641F91400A20C22 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		938C835722CBD30C0071D23A /* Erun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Erun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		938C835A22CBD30C0071D23A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		938C835C22CBD30C0071D23A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		938C835F22CBD30C0071D23A /* Erun.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Erun.xcdatamodel; sourceTree = "<group>"; };
+		938C836122CBD30C0071D23A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		938C836322CBD30C0071D23A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		938C836622CBD30C0071D23A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		938C836922CBD30C0071D23A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		938C836B22CBD30C0071D23A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		938C837022CBD30C0071D23A /* ErunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ErunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		938C837422CBD30C0071D23A /* ErunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErunTests.swift; sourceTree = "<group>"; };
+		938C837622CBD30C0071D23A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		938C837B22CBD30C0071D23A /* ErunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ErunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		938C837F22CBD30C0071D23A /* ErunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErunUITests.swift; sourceTree = "<group>"; };
+		938C838122CBD30C0071D23A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		934571902641F4ED00A20C22 /* Frameworks */ = {
+		938C835422CBD30C0071D23A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				934571BD2641F84800A20C22 /* FirebaseDatabase in Frameworks */,
-				934571C72641F84800A20C22 /* FirebaseAuth in Frameworks */,
-				934571BF2641F84800A20C22 /* FirebaseStorageSwift-Beta in Frameworks */,
-				934571C52641F84800A20C22 /* FirebaseCrashlytics in Frameworks */,
-				934571C12641F84800A20C22 /* FirebaseStorage in Frameworks */,
-				934571C92641F84800A20C22 /* FirebaseDynamicLinks in Frameworks */,
-				934571C32641F84800A20C22 /* FirebaseFunctions in Frameworks */,
-				934571CB2641F84800A20C22 /* FirebaseRemoteConfig in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		938C836D22CBD30C0071D23A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		938C837822CBD30C0071D23A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9345718A2641F4ED00A20C22 = {
+		938C834E22CBD30C0071D23A = {
 			isa = PBXGroup;
 			children = (
-				934571952641F4ED00A20C22 /* Erun */,
-				934571942641F4ED00A20C22 /* Products */,
+				938C835922CBD30C0071D23A /* Erun */,
+				938C837322CBD30C0071D23A /* ErunTests */,
+				938C837E22CBD30C0071D23A /* ErunUITests */,
+				938C835822CBD30C0071D23A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		934571942641F4ED00A20C22 /* Products */ = {
+		938C835822CBD30C0071D23A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				934571932641F4ED00A20C22 /* Erun.app */,
+				938C835722CBD30C0071D23A /* Erun.app */,
+				938C837022CBD30C0071D23A /* ErunTests.xctest */,
+				938C837B22CBD30C0071D23A /* ErunUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		934571952641F4ED00A20C22 /* Erun */ = {
+		938C835922CBD30C0071D23A /* Erun */ = {
 			isa = PBXGroup;
 			children = (
-				934571A52641F51D00A20C22 /* Components */,
-				934571AC2641F55A00A20C22 /* Models */,
-				934571AB2641F55400A20C22 /* Repositories */,
-				934571AA2641F54F00A20C22 /* Services */,
-				934571A92641F54300A20C22 /* Shared */,
-				934571A82641F53D00A20C22 /* Generated */,
-				934571A72641F53800A20C22 /* Resources */,
-				934571AD2641F57100A20C22 /* Metadata */,
+				938C835A22CBD30C0071D23A /* AppDelegate.swift */,
+				938C835C22CBD30C0071D23A /* SceneDelegate.swift */,
+				938C836122CBD30C0071D23A /* ContentView.swift */,
+				938C836322CBD30C0071D23A /* Assets.xcassets */,
+				938C836822CBD30C0071D23A /* LaunchScreen.storyboard */,
+				938C836B22CBD30C0071D23A /* Info.plist */,
+				938C835E22CBD30C0071D23A /* Erun.xcdatamodeld */,
+				938C836522CBD30C0071D23A /* Preview Content */,
 			);
 			path = Erun;
 			sourceTree = "<group>";
 		};
-		9345719C2641F4EE00A20C22 /* Preview Content */ = {
+		938C836522CBD30C0071D23A /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				9345719D2641F4EE00A20C22 /* Preview Assets.xcassets */,
+				938C836622CBD30C0071D23A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		934571A52641F51D00A20C22 /* Components */ = {
+		938C837322CBD30C0071D23A /* ErunTests */ = {
 			isa = PBXGroup;
 			children = (
-				934571962641F4ED00A20C22 /* ErunApp.swift */,
-				934571982641F4ED00A20C22 /* ContentView.swift */,
+				938C837422CBD30C0071D23A /* ErunTests.swift */,
+				938C837622CBD30C0071D23A /* Info.plist */,
 			);
-			path = Components;
+			path = ErunTests;
 			sourceTree = "<group>";
 		};
-		934571A72641F53800A20C22 /* Resources */ = {
+		938C837E22CBD30C0071D23A /* ErunUITests */ = {
 			isa = PBXGroup;
 			children = (
-				934571AE2641F60F00A20C22 /* Colors.xcassets */,
-				934571B02641F61900A20C22 /* Images.xcassets */,
-				9345719C2641F4EE00A20C22 /* Preview Content */,
+				938C837F22CBD30C0071D23A /* ErunUITests.swift */,
+				938C838122CBD30C0071D23A /* Info.plist */,
 			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		934571A82641F53D00A20C22 /* Generated */ = {
-			isa = PBXGroup;
-			children = (
-				934571B82641F70100A20C22 /* Colors.swift */,
-				934571B72641F70100A20C22 /* Images.swift */,
-			);
-			path = Generated;
-			sourceTree = "<group>";
-		};
-		934571A92641F54300A20C22 /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Shared;
-			sourceTree = "<group>";
-		};
-		934571AA2641F54F00A20C22 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		934571AB2641F55400A20C22 /* Repositories */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Repositories;
-			sourceTree = "<group>";
-		};
-		934571AC2641F55A00A20C22 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		934571AD2641F57100A20C22 /* Metadata */ = {
-			isa = PBXGroup;
-			children = (
-				9345719F2641F4EE00A20C22 /* Info.plist */,
-				934571CD2641F91400A20C22 /* GoogleService-Info.plist */,
-				934571B32641F67700A20C22 /* swiftgen.yml */,
-				934571B22641F67700A20C22 /* swiftui-xcassets.stencil */,
-			);
-			name = Metadata;
+			path = ErunUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		934571922641F4ED00A20C22 /* Erun */ = {
+		938C835622CBD30C0071D23A /* Erun */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 934571A22641F4EE00A20C22 /* Build configuration list for PBXNativeTarget "Erun" */;
+			buildConfigurationList = 938C838422CBD30C0071D23A /* Build configuration list for PBXNativeTarget "Erun" */;
 			buildPhases = (
-				934571B62641F6A800A20C22 /* SwiftGen */,
-				9345718F2641F4ED00A20C22 /* Sources */,
-				934571902641F4ED00A20C22 /* Frameworks */,
-				934571912641F4ED00A20C22 /* Resources */,
-				934571CC2641F87500A20C22 /* Upload dSYM */,
+				938C835322CBD30C0071D23A /* Sources */,
+				938C835422CBD30C0071D23A /* Frameworks */,
+				938C835522CBD30C0071D23A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Erun;
-			packageProductDependencies = (
-				934571BC2641F84800A20C22 /* FirebaseDatabase */,
-				934571BE2641F84800A20C22 /* FirebaseStorageSwift-Beta */,
-				934571C02641F84800A20C22 /* FirebaseStorage */,
-				934571C22641F84800A20C22 /* FirebaseFunctions */,
-				934571C42641F84800A20C22 /* FirebaseCrashlytics */,
-				934571C62641F84800A20C22 /* FirebaseAuth */,
-				934571C82641F84800A20C22 /* FirebaseDynamicLinks */,
-				934571CA2641F84800A20C22 /* FirebaseRemoteConfig */,
-			);
 			productName = Erun;
-			productReference = 934571932641F4ED00A20C22 /* Erun.app */;
+			productReference = 938C835722CBD30C0071D23A /* Erun.app */;
 			productType = "com.apple.product-type.application";
+		};
+		938C836F22CBD30C0071D23A /* ErunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 938C838722CBD30C0071D23A /* Build configuration list for PBXNativeTarget "ErunTests" */;
+			buildPhases = (
+				938C836C22CBD30C0071D23A /* Sources */,
+				938C836D22CBD30C0071D23A /* Frameworks */,
+				938C836E22CBD30C0071D23A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				938C837222CBD30C0071D23A /* PBXTargetDependency */,
+			);
+			name = ErunTests;
+			productName = ErunTests;
+			productReference = 938C837022CBD30C0071D23A /* ErunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		938C837A22CBD30C0071D23A /* ErunUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 938C838A22CBD30C0071D23A /* Build configuration list for PBXNativeTarget "ErunUITests" */;
+			buildPhases = (
+				938C837722CBD30C0071D23A /* Sources */,
+				938C837822CBD30C0071D23A /* Frameworks */,
+				938C837922CBD30C0071D23A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				938C837D22CBD30C0071D23A /* PBXTargetDependency */,
+			);
+			name = ErunUITests;
+			productName = ErunUITests;
+			productReference = 938C837B22CBD30C0071D23A /* ErunUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9345718B2641F4ED00A20C22 /* Project object */ = {
+		938C834F22CBD30C0071D23A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1250;
-				LastUpgradeCheck = 1250;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Saad Qureshi";
 				TargetAttributes = {
-					934571922641F4ED00A20C22 = {
-						CreatedOnToolsVersion = 12.5;
+					938C835622CBD30C0071D23A = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					938C836F22CBD30C0071D23A = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 938C835622CBD30C0071D23A;
+					};
+					938C837A22CBD30C0071D23A = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 938C835622CBD30C0071D23A;
 					};
 				};
 			};
-			buildConfigurationList = 9345718E2641F4ED00A20C22 /* Build configuration list for PBXProject "Erun" */;
+			buildConfigurationList = 938C835222CBD30C0071D23A /* Build configuration list for PBXProject "Erun" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -221,90 +226,101 @@
 				en,
 				Base,
 			);
-			mainGroup = 9345718A2641F4ED00A20C22;
-			packageReferences = (
-				934571BB2641F84800A20C22 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-			);
-			productRefGroup = 934571942641F4ED00A20C22 /* Products */;
+			mainGroup = 938C834E22CBD30C0071D23A;
+			productRefGroup = 938C835822CBD30C0071D23A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				934571922641F4ED00A20C22 /* Erun */,
+				938C835622CBD30C0071D23A /* Erun */,
+				938C836F22CBD30C0071D23A /* ErunTests */,
+				938C837A22CBD30C0071D23A /* ErunUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		934571912641F4ED00A20C22 /* Resources */ = {
+		938C835522CBD30C0071D23A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				934571AF2641F60F00A20C22 /* Colors.xcassets in Resources */,
-				934571B52641F67700A20C22 /* swiftgen.yml in Resources */,
-				934571B12641F61900A20C22 /* Images.xcassets in Resources */,
-				934571B42641F67700A20C22 /* swiftui-xcassets.stencil in Resources */,
-				9345719E2641F4EE00A20C22 /* Preview Assets.xcassets in Resources */,
-				934571CE2641F91400A20C22 /* GoogleService-Info.plist in Resources */,
+				938C836A22CBD30C0071D23A /* LaunchScreen.storyboard in Resources */,
+				938C836722CBD30C0071D23A /* Preview Assets.xcassets in Resources */,
+				938C836422CBD30C0071D23A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		938C836E22CBD30C0071D23A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		938C837922CBD30C0071D23A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		934571B62641F6A800A20C22 /* SwiftGen */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 12;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = SwiftGen;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if test -d \"/opt/homebrew/bin/\"; then\n  PATH=\"/opt/homebrew/bin/:${PATH}\"\nfi\n\nexport PATH\n\nif which swiftgen >/dev/null; then\n  arch -x86_64 swiftgen config run --config Erun/swiftgen.yml\nelse\n  echo \"warning: SwiftGen not installed, download it from https://github.com/SwiftGen/SwiftGen\"\nfi\n";
-		};
-		934571CC2641F87500A20C22 /* Upload dSYM */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 8;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Upload dSYM";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-			shellPath = /bin/sh;
-			shellScript = "${BUILD_DIR%Build/*}/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		9345718F2641F4ED00A20C22 /* Sources */ = {
+		938C835322CBD30C0071D23A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				934571992641F4ED00A20C22 /* ContentView.swift in Sources */,
-				934571BA2641F70100A20C22 /* Colors.swift in Sources */,
-				934571B92641F70100A20C22 /* Images.swift in Sources */,
-				934571972641F4ED00A20C22 /* ErunApp.swift in Sources */,
+				938C835B22CBD30C0071D23A /* AppDelegate.swift in Sources */,
+				938C835D22CBD30C0071D23A /* SceneDelegate.swift in Sources */,
+				938C836222CBD30C0071D23A /* ContentView.swift in Sources */,
+				938C836022CBD30C0071D23A /* Erun.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		938C836C22CBD30C0071D23A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938C837522CBD30C0071D23A /* ErunTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		938C837722CBD30C0071D23A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938C838022CBD30C0071D23A /* ErunUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		938C837222CBD30C0071D23A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 938C835622CBD30C0071D23A /* Erun */;
+			targetProxy = 938C837122CBD30C0071D23A /* PBXContainerItemProxy */;
+		};
+		938C837D22CBD30C0071D23A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 938C835622CBD30C0071D23A /* Erun */;
+			targetProxy = 938C837C22CBD30C0071D23A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		938C836822CBD30C0071D23A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				938C836922CBD30C0071D23A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		934571A02641F4EE00A20C22 /* Debug */ = {
+		938C838222CBD30C0071D23A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -330,7 +346,6 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -355,7 +370,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -365,7 +380,7 @@
 			};
 			name = Debug;
 		};
-		934571A12641F4EE00A20C22 /* Release */ = {
+		938C838322CBD30C0071D23A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -391,7 +406,6 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -410,7 +424,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -420,129 +434,185 @@
 			};
 			name = Release;
 		};
-		934571A32641F4EE00A20C22 /* Debug */ = {
+		938C838522CBD30C0071D23A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_ASSET_PATHS = "\"Erun/Resources/Preview Content\"";
+				CURRENT_PROJECT_VERSION = 0.1.0.1;
+				DEVELOPMENT_ASSET_PATHS = "Erun/Preview\\ Content";
 				DEVELOPMENT_TEAM = 5YQB3TL427;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Erun/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.erun.runner-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.erun.erun-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		934571A42641F4EE00A20C22 /* Release */ = {
+		938C838622CBD30C0071D23A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Erun/Resources/Preview Content\"";
+				CURRENT_PROJECT_VERSION = 0.1.0.1;
+				DEVELOPMENT_ASSET_PATHS = "Erun/Preview\\ Content";
 				DEVELOPMENT_TEAM = 5YQB3TL427;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Erun/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.erun.runner-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.erun.erun-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		938C838822CBD30C0071D23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YQB3TL427;
+				INFOPLIST_FILE = ErunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.erun.ErunTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Erun.app/Erun";
+			};
+			name = Debug;
+		};
+		938C838922CBD30C0071D23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YQB3TL427;
+				INFOPLIST_FILE = ErunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.erun.ErunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Erun.app/Erun";
+			};
+			name = Release;
+		};
+		938C838B22CBD30C0071D23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YQB3TL427;
+				INFOPLIST_FILE = ErunUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.erun.ErunUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Erun;
+			};
+			name = Debug;
+		};
+		938C838C22CBD30C0071D23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YQB3TL427;
+				INFOPLIST_FILE = ErunUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.erun.ErunUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Erun;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9345718E2641F4ED00A20C22 /* Build configuration list for PBXProject "Erun" */ = {
+		938C835222CBD30C0071D23A /* Build configuration list for PBXProject "Erun" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				934571A02641F4EE00A20C22 /* Debug */,
-				934571A12641F4EE00A20C22 /* Release */,
+				938C838222CBD30C0071D23A /* Debug */,
+				938C838322CBD30C0071D23A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		934571A22641F4EE00A20C22 /* Build configuration list for PBXNativeTarget "Erun" */ = {
+		938C838422CBD30C0071D23A /* Build configuration list for PBXNativeTarget "Erun" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				934571A32641F4EE00A20C22 /* Debug */,
-				934571A42641F4EE00A20C22 /* Release */,
+				938C838522CBD30C0071D23A /* Debug */,
+				938C838622CBD30C0071D23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		938C838722CBD30C0071D23A /* Build configuration list for PBXNativeTarget "ErunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				938C838822CBD30C0071D23A /* Debug */,
+				938C838922CBD30C0071D23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		938C838A22CBD30C0071D23A /* Build configuration list for PBXNativeTarget "ErunUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				938C838B22CBD30C0071D23A /* Debug */,
+				938C838C22CBD30C0071D23A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		934571BB2641F84800A20C22 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 7.11.1;
-			};
+/* Begin XCVersionGroup section */
+		938C835E22CBD30C0071D23A /* Erun.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				938C835F22CBD30C0071D23A /* Erun.xcdatamodel */,
+			);
+			currentVersion = 938C835F22CBD30C0071D23A /* Erun.xcdatamodel */;
+			path = Erun.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
 		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		934571BC2641F84800A20C22 /* FirebaseDatabase */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 934571BB2641F84800A20C22 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseDatabase;
-		};
-		934571BE2641F84800A20C22 /* FirebaseStorageSwift-Beta */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 934571BB2641F84800A20C22 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = "FirebaseStorageSwift-Beta";
-		};
-		934571C02641F84800A20C22 /* FirebaseStorage */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 934571BB2641F84800A20C22 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseStorage;
-		};
-		934571C22641F84800A20C22 /* FirebaseFunctions */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 934571BB2641F84800A20C22 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseFunctions;
-		};
-		934571C42641F84800A20C22 /* FirebaseCrashlytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 934571BB2641F84800A20C22 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseCrashlytics;
-		};
-		934571C62641F84800A20C22 /* FirebaseAuth */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 934571BB2641F84800A20C22 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAuth;
-		};
-		934571C82641F84800A20C22 /* FirebaseDynamicLinks */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 934571BB2641F84800A20C22 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseDynamicLinks;
-		};
-		934571CA2641F84800A20C22 /* FirebaseRemoteConfig */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 934571BB2641F84800A20C22 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseRemoteConfig;
-		};
-/* End XCSwiftPackageProductDependency section */
+/* End XCVersionGroup section */
 	};
-	rootObject = 9345718B2641F4ED00A20C22 /* Project object */;
+	rootObject = 938C834F22CBD30C0071D23A /* Project object */;
 }
