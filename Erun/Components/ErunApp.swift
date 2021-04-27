@@ -2,7 +2,7 @@
 //  ErunApp.swift
 //  Erun
 //
-//  Created by Saad Qureshi on 04/05/2021.
+//  Created by Saad Qureshi on 27/04/2021.
 //
 
 import SwiftUI
@@ -10,7 +10,9 @@ import Firebase
 
 @main
 struct ErunApp: App {
-    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    init() {
+        FirebaseApp.configure()
+    }
     
     var body: some Scene {
         WindowGroup {
@@ -18,13 +20,3 @@ struct ErunApp: App {
         }
     }
 }
-
-class AppDelegate: NSObject, UIApplicationDelegate {
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-        print("Setting up Firebase")
-        FirebaseApp.configure()
-        
-        return true
-    }
-}
-

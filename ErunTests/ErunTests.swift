@@ -2,8 +2,7 @@
 //  ErunTests.swift
 //  ErunTests
 //
-//  Created by Saad Qureshi on 02/07/2019.
-//  Copyright © 2019 Saad Qureshi. All rights reserved.
+//  Created by Saad Qureshi on 27/04/2021.
 //
 
 import XCTest
@@ -11,20 +10,20 @@ import XCTest
 
 class ErunTests: XCTestCase {
 
-    override func setUp() {
+    override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
 
-    override func tearDown() {
+    override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() {
+    func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
-    func testPerformanceExample() {
+    func testPerformanceExample() throws {
         // This is an example of a performance test case.
         self.measure {
             // Put the code you want to measure the time of here.

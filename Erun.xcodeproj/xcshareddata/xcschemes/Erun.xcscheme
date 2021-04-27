@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "934571922641F4ED00A20C22"
+               BlueprintIdentifier = "932FD5302638AB850003A862"
                BuildableName = "Erun.app"
                BlueprintName = "Erun"
                ReferencedContainer = "container:Erun.xcodeproj">
@@ -28,6 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "932FD5412638AB860003A862"
+               BuildableName = "ErunTests.xctest"
+               BlueprintName = "ErunTests"
+               ReferencedContainer = "container:Erun.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "932FD54C2638AB860003A862"
+               BuildableName = "ErunUITests.xctest"
+               BlueprintName = "ErunUITests"
+               ReferencedContainer = "container:Erun.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -44,7 +64,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "934571922641F4ED00A20C22"
+            BlueprintIdentifier = "932FD5302638AB850003A862"
             BuildableName = "Erun.app"
             BlueprintName = "Erun"
             ReferencedContainer = "container:Erun.xcodeproj">
@@ -61,7 +81,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "934571922641F4ED00A20C22"
+            BlueprintIdentifier = "932FD5302638AB850003A862"
             BuildableName = "Erun.app"
             BlueprintName = "Erun"
             ReferencedContainer = "container:Erun.xcodeproj">
