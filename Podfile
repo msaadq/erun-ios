@@ -6,7 +6,10 @@ target 'Erun' do
   use_frameworks!
 
   # Pods for Erun
-  pod 'Firebase/Core'
+  # add the Firebase pod for Google Analytics
+  pod 'Firebase/Analytics'
+  # add pods for any other desired Firebase products
+  # https://firebase.google.com/docs/ios/setup#available-pods
 
   target 'ErunTests' do
     inherit! :search_paths
@@ -14,7 +17,6 @@ target 'Erun' do
   end
 
   target 'ErunUITests' do
-    inherit! :search_paths
     # Pods for testing
   end
 
