@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,9 @@
 		932FD5472638AB860003A862 /* ErunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932FD5462638AB860003A862 /* ErunTests.swift */; };
 		932FD5522638AB860003A862 /* ErunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932FD5512638AB860003A862 /* ErunUITests.swift */; };
 		932FD56B2638AE040003A862 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 932FD56A2638AE040003A862 /* GoogleService-Info.plist */; };
+		932FD56D2638CD030003A862 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932FD56C2638CD030003A862 /* User.swift */; };
+		932FD56F2638CD590003A862 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932FD56E2638CD590003A862 /* Event.swift */; };
+		932FD5732638D39C0003A862 /* Publishers+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932FD5722638D39C0003A862 /* Publishers+Extension.swift */; };
 		9DE8DF7FE6CC3ACA05FFF5C1 /* Pods_Erun_ErunUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7215D93E1531779C6CCDE1F7 /* Pods_Erun_ErunUITests.framework */; };
 		A4E21C2D997CA0BE40E781BE /* Pods_ErunTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B390CB652B93D400F095BAC6 /* Pods_ErunTests.framework */; };
 		FA5C98EEB8AC8308BAF9A5F5 /* Pods_Erun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7097C2814454F607FCEE0336 /* Pods_Erun.framework */; };
@@ -57,6 +60,9 @@
 		932FD5512638AB860003A862 /* ErunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErunUITests.swift; sourceTree = "<group>"; };
 		932FD5532638AB860003A862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		932FD56A2638AE040003A862 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		932FD56C2638CD030003A862 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		932FD56E2638CD590003A862 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		932FD5722638D39C0003A862 /* Publishers+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Publishers+Extension.swift"; sourceTree = "<group>"; };
 		B390CB652B93D400F095BAC6 /* Pods_ErunTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ErunTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE0703989CA0665097F68D1 /* Pods-ErunTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ErunTests.debug.xcconfig"; path = "Target Support Files/Pods-ErunTests/Pods-ErunTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -174,6 +180,8 @@
 		932FD5602638ABC90003A862 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				932FD56C2638CD030003A862 /* User.swift */,
+				932FD56E2638CD590003A862 /* Event.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -195,6 +203,7 @@
 		932FD5632638ABDF0003A862 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				932FD5722638D39C0003A862 /* Publishers+Extension.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -234,7 +243,6 @@
 				EAE0703989CA0665097F68D1 /* Pods-ErunTests.debug.xcconfig */,
 				550D0720B9216A3B60023290 /* Pods-ErunTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -476,8 +484,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				932FD5732638D39C0003A862 /* Publishers+Extension.swift in Sources */,
 				932FD5372638AB850003A862 /* ContentView.swift in Sources */,
+				932FD56F2638CD590003A862 /* Event.swift in Sources */,
 				932FD5352638AB850003A862 /* ErunApp.swift in Sources */,
+				932FD56D2638CD030003A862 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
