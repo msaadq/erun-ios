@@ -1,6 +1,0 @@
-framework module Pods_Erun_ErunUITests {
-  umbrella header "Pods-Erun-ErunUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
