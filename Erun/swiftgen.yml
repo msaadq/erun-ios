@@ -1,0 +1,13 @@
+input_dir: ../Erun/
+output_dir: ../Erun/Generated/
+
+xcassets:
+  - inputs: Resources/Colors.xcassets
+    outputs:
+        templatePath: ../Erun/swiftui-xcassets.stencil
+        output: Colors.swift
+  - inputs: Resources/Images.xcassets
+    outputs:
+        templatePath: ../Erun/swiftui-xcassets.stencil
+        output: Images.swift
+
