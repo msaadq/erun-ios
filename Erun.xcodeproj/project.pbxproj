@@ -25,6 +25,9 @@
 		934571C92641F84800A20C22 /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = 934571C82641F84800A20C22 /* FirebaseDynamicLinks */; };
 		934571CB2641F84800A20C22 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 934571CA2641F84800A20C22 /* FirebaseRemoteConfig */; };
 		934571CE2641F91400A20C22 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 934571CD2641F91400A20C22 /* GoogleService-Info.plist */; };
+		934571D02641FE1200A20C22 /* Publishers+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934571CF2641FE1200A20C22 /* Publishers+Extension.swift */; };
+		934571D22641FE3B00A20C22 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934571D12641FE3B00A20C22 /* User.swift */; };
+		934571D42641FE4000A20C22 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934571D32641FE4000A20C22 /* Event.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		934571B72641F70100A20C22 /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		934571B82641F70100A20C22 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		934571CD2641F91400A20C22 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		934571CF2641FE1200A20C22 /* Publishers+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Publishers+Extension.swift"; sourceTree = "<group>"; };
+		934571D12641FE3B00A20C22 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		934571D32641FE4000A20C22 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +137,7 @@
 		934571A92641F54300A20C22 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				934571CF2641FE1200A20C22 /* Publishers+Extension.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -152,6 +159,8 @@
 		934571AC2641F55A00A20C22 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				934571D12641FE3B00A20C22 /* User.swift */,
+				934571D32641FE4000A20C22 /* Event.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -294,9 +303,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				934571D02641FE1200A20C22 /* Publishers+Extension.swift in Sources */,
 				934571992641F4ED00A20C22 /* ContentView.swift in Sources */,
+				934571D22641FE3B00A20C22 /* User.swift in Sources */,
 				934571BA2641F70100A20C22 /* Colors.swift in Sources */,
 				934571B92641F70100A20C22 /* Images.swift in Sources */,
+				934571D42641FE4000A20C22 /* Event.swift in Sources */,
 				934571972641F4ED00A20C22 /* ErunApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
