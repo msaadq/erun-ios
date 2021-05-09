@@ -8,24 +8,19 @@
 import Foundation
 
 struct User: Codable, Identifiable {
-    let id: String
+    let id: ID
     let name: String
-    let username: String
-    let imageUrlString: String?
-    let email: String
+    let imageUrl: URL?
+    let dob: Date?
+    let email: String?
+    let erunScore: Double?
     
-    var joinedEvents: JoinedEvents?
-    var imageUrl: URL? {
-        URL(string: imageUrlString ?? "")
-    }
+    var joinedEvents: [ID]?
     
     enum CodingKeys: String, CodingKey {
-        case id, name, username, email
-        case imageUrlString = "image_url"
-    }
-    
-    struct JoinedEvents: Codable {
-        let eventIds: [String]
-        var events: [EventDetails]?
+        case id, name, dob, email
+        case imageUrl = "image_url"
+        case erunScore = "erun_score"
     }
 }
+
