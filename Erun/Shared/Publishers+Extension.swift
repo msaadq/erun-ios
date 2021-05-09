@@ -9,11 +9,12 @@ import Combine
 import FirebaseAuth
 import FirebaseDatabase
 
+// MARK: - Specialized Error
 enum APIError: LocalizedError {
     case networkError(description: String)
     case serverError(description: String)
     case decodeError(description: String)
-    case genericError(description: String)
+    case genericError(description: String?)
 }
 
 // MARK: - Additional Publishers for Firebase Networking

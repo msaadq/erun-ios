@@ -7,58 +7,59 @@
 
 import Foundation
 
-struct EventDetails: Codable, Identifiable {
-    let id: String
-    let organizerId: String
-    let imageUrlString: String?
+struct Event: Codable, Identifiable {
+    let id: ID
     let title: String
-    let description: String
     let duration: Int
+    let subtitle: String
     let startTime: Date
-    let creationTime: Date
     let participantCount: Int
+    let minScore: Double
     let isSpotlighted: Bool
+    let imageUrl: URL?
+    let description: String?
+    let creationTime: Date?
+    let organizer: User?
+    let warmupDuration: Int?
+    let participants: [User]?
     
-    var eventParticipants: EventParticipants?
-    var imageUrl: URL? {
-        URL(string: imageUrlString ?? "")
-    }
+    var joinedByCurrentUser: Bool?
+    var image: Data?
+    var state: EventState?
     
     enum CodingKeys: String, CodingKey {
-        case id, title, description, duration
-        case organizerId = "organizer_id"
-        case imageUrlString = "image_url"
+        case id, title, duration, subtitle, description, organizer, participants
         case startTime = "start_time"
-        case creationTime = "creation_time"
         case participantCount = "participant_count"
+        case minScore = "min_score"
         case isSpotlighted = "is_spotlighted"
-    }
-    
-    struct EventParticipants: Codable {
-        let participantsIds: [String]
-        var users: [User]?
+        case imageUrl = "image_url"
+        case creationTime = "creation_time"
+        case warmupDuration = "warmup_duration"
     }
 }
 
 struct EventState: Codable {
-    let id: String
-    let startTime: Date
-    let duration: Int
-    let warmupDuration: Int
+    var isCompleted: Bool
     var leaderBoard: [LeaderBoardItem]
     
     enum CodingKeys: String, CodingKey {
-        case id, duration
-        case startTime = "start_time"
-        case warmupDuration = "warmup_duration"
+        case isCompleted = "is_completed"
         case leaderBoard = "leader_board"
     }
+}
+
+struct LeaderBoardItem: Codable {
+    let userId: ID
+    let name: String
+    var distance: Float
+    var rank: Int
+    var hasCompleted: Bool
     
-    struct LeaderBoardItem: Codable {
-        let userId: String
-        let name: String
-        var distance: Float
-        var rank: Int
-        var hasCompleted: Bool
+    enum CodingKeys: String, CodingKey {
+        case name, distance, rank
+        case userId = "user_id"
+        case hasCompleted = "has_completed"
     }
 }
+
