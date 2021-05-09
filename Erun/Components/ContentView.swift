@@ -9,9 +9,15 @@ import SwiftUI
 import FirebaseDatabase
 
 struct ContentView: View {
+    @StateObject var vm: HomeVM = HomeVM()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            List(vm.events) { event in
+                Text(event.title)
+            }
+        }
+        .onAppear(perform: vm.onAppear)
     }
 }
 

@@ -10,7 +10,7 @@ import FirebaseDatabase
 
 struct MockDataGenerator {
     static func updateMockDatabase() {
-        let ref = Database.database().reference().child("mock")
+        let ref = Database.database().reference().child("test")
         ref.setValue(MockDataGenerator.database)
     }
     
@@ -50,15 +50,15 @@ struct MockDataGenerator {
 
     static let users: [String: Any] = [
         "msaadq":
-            User(id: "msaadq", name: "Saad Qureshi", imageUrl: URL(string: "https://picsum.photos/200")!, dob: Date(), email: "msaadq94@gmail.com", erunScore: 0.0, joinedEvents: nil).toDictionary(),
+            User(id: "msaadq", name: "Saad Qureshi", imageUrl: URL(string: "https://picsum.photos/200")!, dob: Date(), email: "msaadq94@gmail.com", erunScore: 0.0, joinedEvents: nil),
         "faixan":
-        User(id: "faixan", name: "Faizan Arshad", imageUrl: URL(string: "https://picsum.photos/200")!, dob: Date(), email: "faixan@gmail.com", erunScore: 0.5, joinedEvents: nil).toDictionary(),
+        User(id: "faixan", name: "Faizan Arshad", imageUrl: URL(string: "https://picsum.photos/200")!, dob: Date(), email: "faixan@gmail.com", erunScore: 0.5, joinedEvents: nil),
         "muali":
-        User(id: "muali", name: "Ali Muneeb", imageUrl: URL(string: "https://picsum.photos/200")!, dob: Date(), email: "muali@gmail.com", erunScore: 2.6, joinedEvents: nil).toDictionary(),
+        User(id: "muali", name: "Ali Muneeb", imageUrl: URL(string: "https://picsum.photos/200")!, dob: Date(), email: "muali@gmail.com", erunScore: 2.6, joinedEvents: nil),
         "jared":
-        User(id: "jared", name: "Jared Rogers", imageUrl: URL(string: "https://picsum.photos/200")!, dob: Date(), email: "jared@gmail.com", erunScore: 6.1, joinedEvents: nil).toDictionary(),
+        User(id: "jared", name: "Jared Rogers", imageUrl: URL(string: "https://picsum.photos/200")!, dob: Date(), email: "jared@gmail.com", erunScore: 6.1, joinedEvents: nil),
         "muda":
-        User(id: "muda", name: "Mudassir Ahmed", imageUrl: URL(string: "https://picsum.photos/200")!, dob: Date(), email: "muda@gmail.com", erunScore: 4.1, joinedEvents: nil).toDictionary()
+        User(id: "muda", name: "Mudassir Ahmed", imageUrl: URL(string: "https://picsum.photos/200")!, dob: Date(), email: "muda@gmail.com", erunScore: 4.1, joinedEvents: nil)
     ]
 
     static let event_states: [String: Any] = [
@@ -70,11 +70,11 @@ struct MockDataGenerator {
             EventState(isCompleted: false, leaderBoard: []).toDictionary()
     ]
 
-    static let joined_events = [
-        "msaadq": ["event_123", "event_456"],
+    static let joined_events: [String: Any] = [
+        "msaadq": ["event_123": true, "event_456": true],
         "faixan": [],
-        "muali": ["event_123"],
-        "muda": [ "event_123", "event_789", "event_456"],
+        "muali": ["event_123": true],
+        "muda": [ "event_123": true, "event_789": true, "event_456": true],
     ]
 }
 

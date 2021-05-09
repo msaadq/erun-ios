@@ -32,6 +32,7 @@
 		93F3B2A92646D49E006B51B3 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F3B2A82646D49D006B51B3 /* UserService.swift */; };
 		93F3B2AC26484186006B51B3 /* MockDataGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F3B2AB26484186006B51B3 /* MockDataGenerator.swift */; };
 		93F3B2AE26484296006B51B3 /* Encodable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F3B2AD26484296006B51B3 /* Encodable+Extension.swift */; };
+		93F3B2B126486819006B51B3 /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F3B2B026486819006B51B3 /* HomeVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		93F3B2A82646D49D006B51B3 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		93F3B2AB26484186006B51B3 /* MockDataGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataGenerator.swift; sourceTree = "<group>"; };
 		93F3B2AD26484296006B51B3 /* Encodable+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+Extension.swift"; sourceTree = "<group>"; };
+		93F3B2B026486819006B51B3 /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 			children = (
 				934571962641F4ED00A20C22 /* ErunApp.swift */,
 				934571982641F4ED00A20C22 /* ContentView.swift */,
+				93F3B2B026486819006B51B3 /* HomeVM.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				934571D02641FE1200A20C22 /* Publishers+Extension.swift in Sources */,
 				934571992641F4ED00A20C22 /* ContentView.swift in Sources */,
 				93F3B2A92646D49E006B51B3 /* UserService.swift in Sources */,
+				93F3B2B126486819006B51B3 /* HomeVM.swift in Sources */,
 				93F3B2AE26484296006B51B3 /* Encodable+Extension.swift in Sources */,
 				93F3B2A72646CA70006B51B3 /* EventsService.swift in Sources */,
 				934571D22641FE3B00A20C22 /* User.swift in Sources */,

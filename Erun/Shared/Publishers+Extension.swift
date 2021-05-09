@@ -75,8 +75,12 @@ fileprivate extension Subscriptions {
         init(subscriber: S, childPath: String) {
             self.subscriber = subscriber
             handler = Database.database().reference().child(childPath).observe(DataEventType.value) { (snapshot) in
-                if let eventState = snapshot.value as? T {
-                    _ = subscriber.receive(eventState)
+                if
+                    let json = snapshot.value,
+                    let data = try? JSONSerialization.data(withJSONObject: json, options: .prettyPrinted),
+                    let codableType = try? JSONDecoder().decode(T.self, from: data)
+                {
+                    _ = subscriber.receive(codableType)
                 } else {
                     subscriber.receive(completion: .failure(.decodeError(description: "Invalid event state")))
                 }
