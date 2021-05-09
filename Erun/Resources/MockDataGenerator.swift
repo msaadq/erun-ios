@@ -50,15 +50,15 @@ struct MockDataGenerator {
 
     static let users: [String: Any] = [
         "msaadq":
-            User(id: "msaadq", name: "Saad Qureshi", imageUrl: URL(string: "https://picsum.photos/200")!, dob: Date(), email: "msaadq94@gmail.com", erunScore: 0.0, joinedEvents: nil),
+            User(id: "msaadq", name: "Saad Qureshi", imageUrl: URL(string: "https://picsum.photos/200")!, dob: Date(), email: "msaadq94@gmail.com", erunScore: 0.0, joinedEvents: nil).toDictionary(),
         "faixan":
-        User(id: "faixan", name: "Faizan Arshad", imageUrl: URL(string: "https://picsum.photos/200")!, dob: Date(), email: "faixan@gmail.com", erunScore: 0.5, joinedEvents: nil),
+        User(id: "faixan", name: "Faizan Arshad", imageUrl: URL(string: "https://picsum.photos/200")!, dob: Date(), email: "faixan@gmail.com", erunScore: 0.5, joinedEvents: nil).toDictionary(),
         "muali":
-        User(id: "muali", name: "Ali Muneeb", imageUrl: URL(string: "https://picsum.photos/200")!, dob: Date(), email: "muali@gmail.com", erunScore: 2.6, joinedEvents: nil),
+        User(id: "muali", name: "Ali Muneeb", imageUrl: URL(string: "https://picsum.photos/200")!, dob: Date(), email: "muali@gmail.com", erunScore: 2.6, joinedEvents: nil).toDictionary(),
         "jared":
-        User(id: "jared", name: "Jared Rogers", imageUrl: URL(string: "https://picsum.photos/200")!, dob: Date(), email: "jared@gmail.com", erunScore: 6.1, joinedEvents: nil),
+        User(id: "jared", name: "Jared Rogers", imageUrl: URL(string: "https://picsum.photos/200")!, dob: Date(), email: "jared@gmail.com", erunScore: 6.1, joinedEvents: nil).toDictionary(),
         "muda":
-        User(id: "muda", name: "Mudassir Ahmed", imageUrl: URL(string: "https://picsum.photos/200")!, dob: Date(), email: "muda@gmail.com", erunScore: 4.1, joinedEvents: nil)
+        User(id: "muda", name: "Mudassir Ahmed", imageUrl: URL(string: "https://picsum.photos/200")!, dob: Date(), email: "muda@gmail.com", erunScore: 4.1, joinedEvents: nil).toDictionary()
     ]
 
     static let event_states: [String: Any] = [

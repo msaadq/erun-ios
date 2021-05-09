@@ -19,13 +19,6 @@ class HomeVM: ObservableObject {
     }
     
     func onAppear() {
-        let user: User = MockDataGenerator.users["msaadq"] as! User
-        
-        eventsService.updateMembership(of: user, for: "event_456", with: false)
-            .sink(receiveCompletion: {
-                print($0)
-            }, receiveValue: {
-                print($0)
-            })
+
     }
 }
